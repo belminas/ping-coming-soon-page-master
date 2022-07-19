@@ -1,0 +1,65 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+p{
+    font-family: 'Libre Franklin', sans-serif;
+}
+body{
+    display: grid;
+    place-items: start center;
+    margin-top: 10%;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+}
+.img{
+    max-width:500px ;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#Email{
+   width: 400px;
+}
+.lbl{
+    color: var(--Gray);
+}
+.btn{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: var(--Blue) ;
+    margin-top: 7%;
+    width: 150px;
+    height: 40px;
+}
+#p1{
+    font-weight: 300;
+    color: var(--Gray);
+    font-size: 45px;
+    margin-top: 10%;
+}
+#p2{
+    font-weight: 300;
+    font-size: 18px;
+}
+#p3{
+    font-weight: 700;
+    color: black;
+}
+#p4{
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 10px;
+    color: var(--Gray);
+}
+.btn:hover{
+    background-color: var(--Pale-Blue);
+    color: white;
+}
